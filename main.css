@@ -23,7 +23,8 @@ body {
 
 /* the styles for the header */
 header {
-	border: 3px;
+	border-top: 3px;
+	border-bottom: 3px;
 	border-color: #931420;
 	padding-top: 1.5em;
 	padding-bottom: 2em;
