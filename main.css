@@ -14,14 +14,14 @@ body {
 	font-size: 100%;
 	width: 600px;
 	margin: 0 auto;
-	border: 3px;
-	border-color: #931420;
+	/*border: 3px;
+	border-color: #931420;*/
 }
 
 /* the styles for the header */
 header {
-	border: 3px;
-	border-color: #931420;
+	/*border: 3px;
+	border-color: #931420;*/
 	padding-top: 1.5em;
 	padding-bottom: 2em;
 }
@@ -29,10 +29,7 @@ header img {
 	float: left;
 	padding: 0 30px;
 }
-header h1{
-	border: 3px;
-	border-color: #931420;
-}
+
 header h2 {
 	font-size: 170%;
 	color: #800000;
@@ -55,6 +52,8 @@ main {
 main h1 {
 	font-size: 150%;
 	margin: 1em 0 .35em;
+	border: 3px;
+	border-color: #931420;
 }
 
 main h2 {
