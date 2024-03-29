@@ -73,10 +73,10 @@ a:hover {
 /* the styles for the footer */
 footer {
 	margin-top: 1em;
+	border: 3px #931420;
 }
 
 footer p{
 	text-align: center;
-	border: 3px #931420;
 	color: white;
 }
