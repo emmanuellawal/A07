@@ -3,28 +3,32 @@
 	margin: 0;
 	padding: 0;
 }
+
 :root {
 	--global-color-1: #800000;
 }
+
 html {
 	background-color: #fffded;
 }
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 100%;
 	width: 600px;
 	margin: 0 auto;
-	/*border: 3px;
-	border-color: #931420;*/
+	border: 3px;
+	border-color: #931420;
 }
 
 /* the styles for the header */
 header {
-	/*border: 3px;
-	border-color: #931420;*/
+	border: 3px;
+	border-color: #931420;
 	padding-top: 1.5em;
 	padding-bottom: 2em;
 }
+
 header img {
 	float: left;
 	padding: 0 30px;
@@ -47,13 +51,13 @@ header h3 {
 main {
 	clear: left;
 	padding: 0 30px;
+	border: 3px;
+	border-color: #931420;
 }
 
 main h1 {
 	font-size: 150%;
 	margin: 1em 0 .35em;
-	border: 3px;
-	border-color: #931420;
 }
 
 main h2 {
@@ -73,11 +77,11 @@ a:hover {
 /* the styles for the footer */
 footer {
 	margin-top: 1em;
-border: 3px;
-background-color: #931420;
+	border: 3px;
+	background-color: #931420;
 }
 
-footer p{
+footer p {
 	text-align: center;
 	color: white;
 }
