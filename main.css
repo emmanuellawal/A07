@@ -45,7 +45,7 @@ header h3 {
 }
 
 .shadow {
-	text-shadow: 1.5px 1.5px 1.5px #800000;
+	text-shadow: 2px 2px 2px #800000;
 }
 
 /* the styles for the main content */
@@ -58,16 +58,40 @@ main {
 
 main h1 {
 	font-size: 150%;
+	padding: .3em 0;
 	margin: 1em 0 .35em;
 }
 
 main h2 {
 	color: var(--global-color-1);
 	font-size: 130%;
+	padding: .5em 0 .25em 0;
 }
 
 main h3 {
 	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+main img {
+	padding-bottom: 1em;
+}
+
+main p {
+	padding-bottom: .5em;
+}
+
+main blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+
+main ul {
+	padding: 0 0 .25em 1.25em;
+}
+
+main li {
+	padding-bottom: .35em;
 }
 
 a:focus,
@@ -84,5 +108,6 @@ footer {
 
 footer p {
 	text-align: center;
+	padding: 1em 0;
 	color: white;
 }
