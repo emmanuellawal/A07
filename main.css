@@ -9,7 +9,7 @@
 }
 
 html {
-	background-color: #fffded;
+	background-color: white;
 }
 
 body {
@@ -19,6 +19,7 @@ body {
 	margin: 0 auto;
 	border: 3px solid;
 	border-color: #931420;
+	background-color: #fffded;
 }
 
 /* the styles for the header */
