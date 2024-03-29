@@ -1,4 +1,8 @@
 /* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
 :root {
 	--global-color-1: #800000;
 }
@@ -10,18 +14,21 @@ body {
 	font-size: 100%;
 	width: 600px;
 	margin: 0 auto;
-	border: 3px #931420;
+	border: 3px;
+	border-color: #931420;
 }
 
 /* the styles for the header */
 header {
-	border: 3px #931420;
+	border: 3px;
+	border-color: #931420;
 }
 header img {
 	float: left;
 }
 header h1{
-	border: 3px #931420;
+	border: 3px;
+	border-color: #931420;
 }
 header h2 {
 	font-size: 170%;
@@ -45,6 +52,7 @@ main {
 
 main h1 {
 	font-size: 150%;
+	margin: 1em 0 .35em;
 }
 
 main h2 {
@@ -62,6 +70,10 @@ a:hover {
 }
 
 /* the styles for the footer */
+footer {
+	margin-top: 1em;
+}
+
 footer p{
 	text-align: center;
 	border: 3px #931420;
