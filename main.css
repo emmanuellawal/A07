@@ -17,10 +17,15 @@ body {
 }
 
 /* the styles for the header */
+header {
+	border: 3px #931420;
+}
 header img {
 	float: left;
 }
-
+header h1{
+	border: 3px #931420;
+}
 header h2 {
 	font-size: 170%;
 	color: #800000;
@@ -62,4 +67,5 @@ a:hover {
 /* the styles for the footer */
 footer p{
 	text-align: center;
+	border: 3px #931420;
 }
