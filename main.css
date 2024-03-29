@@ -23,8 +23,6 @@ body {
 
 /* the styles for the header */
 header {
-	border-top: 3px solid;
-	border-bottom: 3px solid;
 	border-color: #931420;
 	padding-top: 1.5em;
 	padding-bottom: 2em;
@@ -58,6 +56,8 @@ main {
 }
 
 main h1 {
+	border-top: 3px solid;
+	border-bottom: 3px solid;
 	font-size: 150%;
 	padding: .3em 0;
 	margin: 1em 0 .35em;
